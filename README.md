@@ -313,8 +313,9 @@ Berikan penjelasan dan contohnya! `<p id="paragraf-1" class="text-paragraf">`
 4. - Deklarasi CSS menggunakan ID memiliki keutamaan lebih tinggi daripada deklarasi CSS menggunakan class.
    - Ketika ada konflik, deklarasi CSS dengan ID akan menggantikan deklarasi CSS dengan class.
   
-     CONTOH :
-     Misalkan ada dekralasi CSS sebagai berikut.
+   CONTOH :
+
+   Misalkan ada dekralasi CSS sebagai berikut.
      ```CSS
      #paragraf-1 {
      color: red;
@@ -326,10 +327,11 @@ Berikan penjelasan dan contohnya! `<p id="paragraf-1" class="text-paragraf">`
      }
      ```
 
-     Dan element HTML seperti ini.
+   Dan element HTML seperti ini.
      ```HTML
      <p id="paragraf-1" class="text-paragraf">Contoh paragraf</p>
      ```
      
-     Dalam contoh di atas, meskipun elemen `<p>` memiliki class `"text-paragraf"`, deklarasi CSS dengan ID `#paragraf-1` akan mendominasi dan mengaturnya menjadi teks berwarna merah dan      tebal (sesuai dengan deklarasi di atas). Deklarasi `color: blue;` dari class akan diabaikan dalam hal ini.
-     Jadi, deklarasi dengan ID memiliki prioritas lebih tinggi daripada deklarasi dengan class dalam menentukan gaya elemen.
+   Dalam contoh di atas, meskipun elemen `<p>` memiliki class `"text-paragraf"`, deklarasi CSS dengan ID `#paragraf-1` akan mendominasi dan mengaturnya menjadi teks berwarna merah dan      tebal (sesuai dengan deklarasi di atas). Deklarasi `color: blue;` dari class akan diabaikan dalam hal ini.
+   Jadi, deklarasi dengan ID memiliki prioritas lebih tinggi daripada deklarasi dengan class dalam menentukan gaya elemen.
+ 
